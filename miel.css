@@ -141,11 +141,11 @@ button:nth-child(2):hover{
 }
 .circle:nth-child(1){
     background: linear-gradient(90deg, transparent 50%,#000000 50%);
-    width: 38rem;
+    width: 28rem;
 }
 .circle:nth-child(2){
   
-    width: 30rem;
+    width: 20rem;
     background-image: url(image/414465743_385757717202173_9099504361089272635_n.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
