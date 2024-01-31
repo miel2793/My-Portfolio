@@ -1,3 +1,154 @@
-h1{
-    color: red;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Permanent Marker', cursive;
+}
+.protfolio-conteiner{
+min-height: 100vh;
+width: 100%;
+display: flex;
+}
+.navlist{
+display: flex;
+gap: 3rem;
+
+height: 10vh;
+width: 100%;
+justify-content: center;
+align-items: center;
+position: fixed;
+
+}
+.navlist li{
+    list-style: none;
+}
+.navlist li a{
+    text-decoration: none;
+    text-transform: uppercase;
+     font-size: 1rem;
+     color: aliceblue;
+
+}
+.left-container,.right-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.left-container{
+background: #000000;
+width: 70%;
+padding-left: 3rem;
+}
+.right-container{
+    background: linear-gradient(-45deg,#3877ff,#000000 70%);
+    width: 30%;
+
+}
+.icons .fa-brands{
+    color:#bbb;
+    font-size: 1.7rem;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+}
+.content{
+    margin-left: 1rem;
+}
+.content h1{
+    display: flex;
+    justify-content: space-around;
+    
+    font-size: 1rem;
+    color: #bc9932;
+
+    
+}
+.content h3{
+    display: flex;
+    justify-content: space-around;
+    
+    font-size: 2rem;
+    color: rgb(186, 112, 112);
+}
+.content h2{
+    display: flex;
+    justify-content: space-around;
+    
+    font-size: 1.5rem;
+    color: rgb(143, 154, 133);
+}
+.content p{
+    display: flex;
+    justify-content:space-around;
+    
+    font-size: 1rem;
+    color: rgb(41, 116, 116);
+    max-width: 38rem;
+    margin: 1.1rem 2rem 3rem;
+    
+}
+.btn-container button{
+    border: .1rem solid #3877ff;
+    font-size: 1.1rem;
+    padding: .8rem 1.5rem;
+    border-radius: .5rem;
+    margin: 0rem;
+    cursor: pointer;
+    transition: .5s ease;
+  
+
+}
+button:nth-child(1){
+    background: #5db9ee;
+    color: #000000;
+    margin: 1.7rem ;
+}
+button:nth-child(2){
+    background: transparent;
+    color: #5db9ee;
+
+
+}
+button:nth-child(1):hover{
+    background: transparent;
+     color: #5db9ee;
+}
+button:nth-child(2):hover{
+    background: #5db9ee;
+     color: #262525;
+}
+.icons .fa-brands:hover{
+    cursor: pointer;
+    background: linear-gradient(#fff,#780448);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.design .circle{
+    aspect-ratio: 1;
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+
+}
+.circle:nth-child(1){
+    background: linear-gradient(90deg, transparent 50%,#000000 50%);
+    width: 38rem;
+}
+.circle:nth-child(2){
+  
+    width: 30rem;
+    background-image: url(image/414465743_385757717202173_9099504361089272635_n.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    box-shadow: 
+    0 0 6rem #12ce2f;
 }
