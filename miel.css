@@ -152,3 +152,7 @@ button:nth-child(2):hover{
     box-shadow: 
     0 0 6rem #12ce2f;
 }
+@media(max-width:768px){
+
+
+}
