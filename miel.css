@@ -42,7 +42,7 @@ width: 70%;
 padding-left: 3rem;
 }
 .right-container{
-    background: linear-gradient(-45deg,#3877ff,#000000 70%);
+    background: linear-gradient(-45deg,#820d9c,#000000 70%);
     width: 30%;
 
 }
@@ -150,7 +150,7 @@ button:nth-child(2):hover{
     background-size: 100%;
     background-repeat: no-repeat;
     box-shadow: 
-    0 0 6rem #12ce2f;
+    0 0 6rem #810b0b;
 }
 @media(max-width:768px){
 
